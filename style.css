@@ -27,7 +27,7 @@ header #logo {
     line-height: 60px;
     padding: 0 100px;
     cursor: pointer;
-    color: #f5f4f4;
+    color: #00e1ff;
 }
 
 header ul {
@@ -57,18 +57,21 @@ header ul li a {
 
 header ul li a:hover {
     font-weight: bold;
+    text-decoration: underline;
 
 }
 
 /* style sicky navbar */
 header.Sticky {
     padding: 12px 100px;
+   
     background-color: #fff;
+    color: black;
     box-shadow: 2px 5px 7px rgba(0, 0, 0, 0.2);
 }
 
 header.Sticky ul li a {
-    color: #000;
+    color: #000000;
     font-weight: 500;
 }
 
@@ -77,7 +80,7 @@ header.Sticky ul li a:hover {
 }
 
 header.Sticky #logo {
-    color: #0000;
+    color: #00baf8;
 }
 
 
